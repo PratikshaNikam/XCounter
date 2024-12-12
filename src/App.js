@@ -14,8 +14,8 @@ function App() {
 
       <p>Count: {count}</p>
 
-      <button onClick={ setCount(count + 1)} className='button'>Increment</button>
-      <button onClick={setCount(count - 1)} className='button'>Decrement</button>
+      <button onClick={()=> setCount(count + 1)} className='button'>Increment</button>
+      <button onClick={()=>setCount(count - 1)} className='button'>Decrement</button>
     </div>
   );
 }
